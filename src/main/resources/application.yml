@@ -28,6 +28,9 @@ external-tools:
     - name: arcadia
       available: ${vcap.services.external-tools.credentials.arcadia.available}
       url: ${vcap.services.external-tools.credentials.arcadia.url}
+    - name: logs
+      available: ${vcap.services.external-tools.credentials.logs.available}
+      url: ${vcap.services.external-tools.credentials.logs.url}
 
 endpoints.enabled: false
 endpoints.health.enabled: true
