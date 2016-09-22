@@ -31,6 +31,9 @@ external-tools:
     - name: logs
       available: ${vcap.services.external-tools.credentials.logs.available}
       url: ${vcap.services.external-tools.credentials.logs.url}
+    - name: system-metrics
+      available: ${vcap.services.external-tools.credentials.system-metrics.available}
+      url: ${vcap.services.external-tools.credentials.system-metrics.url}
     - name: apps-metrics
       available: ${vcap.services.external-tools.credentials.apps-metrics.available}
       url: ${vcap.services.external-tools.credentials.apps-metrics.url}
